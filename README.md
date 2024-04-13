@@ -1,4 +1,5 @@
 # Kokoa Clone 2024 Update
 
 Lets go!
-Nice Shoy Nico SSSAAAAMMM~~
+Nice Shot Nico SSSAAAAMMM~~
+Git install completed!!
