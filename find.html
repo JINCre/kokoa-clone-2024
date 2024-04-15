@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/Styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats Kokoa Clone</title>
+    <title>Find Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,32 +23,60 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-xl"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span><i class="fa-solid fa-gear fa-lg"></i></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://lh3.googleusercontent.com/ogw/AF2bZyg5Sbc6llr_0tHvdORjeX157C2Ac48QaR-6VrkfIZrYlg=s32-c-mo"
-            class="user-component__avatar user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Luigi</h4>
-            <h6 class="user-component__subtitle">
-              느슨해진 힙합씬에 긴장감을 줘
-            </h6>
-          </div>
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
         </div>
-        <div class="user-component__column">
-          <span class="user-componet__time">21:22</span>
-          <div class="badge">1</div>
+        <div class="find-icons__icon">
+          <i class="fas fa-address-book"></i>
+          <span
+            >Add by<br />
+            Contacts</span
+          >
+        </div>
+        <div class="find-icons__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fas fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended friends</h6>
+        <span>You hame no recommend friends</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open chat</h4>
+          <span
+            >Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <span class="open-post__hashtags">#bts#army#friends</span>
+            <div class="open-post__members">
+              <img
+                src="https://lh3.googleusercontent.com/ogw/AF2bZyg5Sbc6llr_0tHvdORjeX157C2Ac48QaR-6VrkfIZrYlg=s32-c-mo"
+              />
+              <span class="open-post__members-count">802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column"></div>
         </div>
       </div>
     </main>
@@ -63,7 +91,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
